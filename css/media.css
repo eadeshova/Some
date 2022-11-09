@@ -1,0 +1,91 @@
+@media(max-width:767px) {
+
+    .logo_block {
+        flex-direction: column;
+
+    }
+
+    .logo_block h1 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+
+    .menu-without-burger {
+        display: none;
+    }
+
+
+    .h2 {
+        font-size: 24px;
+    }
+
+    .cards-work {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 18px;
+    }
+
+    .work_place {
+        height: 196px;
+    }
+
+    .play {
+        width: 40px;
+        height: 40px;
+        top: 35%;
+    }
+
+    .question {
+        display: none;
+    }
+
+    .about_app {
+        font-size: 2px;
+    }
+
+    .paragraph {
+        font-size: 20px;
+    }
+
+    .download1 img {
+        width: 130px;
+        height: 120px;
+        margin-bottom: 10%;
+    }
+
+    .paragraph_2 {
+        font-size: 20px;
+    }
+
+    /* .social_media {
+        display: flex;
+        justify-content: space-around;
+        width: 22px;
+        height: 32px;
+    } */
+
+    .footer h2 {
+        font-size: 18px;
+
+    }
+
+    .down_foot {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .down_foot p {
+        font-size: 20px;
+    }
+
+    .down_foot h4 {
+        font-size: 25px;
+    }
+}
+
+@media (min-width:767px) {
+    .burger_menu {
+        display: none;
+    }
+}
